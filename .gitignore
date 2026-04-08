@@ -1,0 +1,22 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 模型权重（大文件）
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+CLIP_cache/
+checkpoints/
+pretrained/
+
+# 数据
+datasets/
+*.zip
+*.tar.gz
+
+# 环境
+venv/
+.env
